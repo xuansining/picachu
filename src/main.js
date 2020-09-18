@@ -7,7 +7,7 @@ const demo1=document.querySelector('#demo1')
 
 const player={
     id:undefined,
-    n:0,
+    n:1,
     time:50,
     string:``,
     map:{

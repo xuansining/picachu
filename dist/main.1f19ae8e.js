@@ -138,7 +138,7 @@ var demo = document.querySelector('#demo');
 var demo1 = document.querySelector('#demo1');
 var player = {
   id: undefined,
-  n: 0,
+  n: 1,
   time: 50,
   string: "",
   map: {
@@ -260,7 +260,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "52575" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "54965" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
