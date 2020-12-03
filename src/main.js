@@ -44,7 +44,10 @@ const player = {
         player.string = html.substring(0, player.n)
 
         demo.innerText = player.string
-        demo1.innerHTML = player.string || 'start';
+        if (document.getElementById('#demo1')) {
+
+            demo1.innerHTML = player.string
+        }
         demo.scrollTop = demo.scrollHeight
 
         player.n += 1;
