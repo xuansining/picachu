@@ -41,10 +41,10 @@ const player = {
             player.clear()
             return
         }
-        player.string = html.substring(1, player.n)
-        console.log(player.string);
+        player.string = html.substring(0, player.n)
+
         demo.innerText = player.string
-        demo1.innerHTML = player.string;
+        demo1.innerHTML = player.string || 'start';
         demo.scrollTop = demo.scrollHeight
 
         player.n += 1;
