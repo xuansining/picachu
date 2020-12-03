@@ -1,5 +1,6 @@
-const html=`
+const html = `
 *{padding: 0;margin: 0;box-sizing: border-box;}
+       
 body{
     background-color: #fee433;
 }
@@ -179,4 +180,4 @@ body{
     transform: translateX(-200px);
 }
 `
-export  default  html
+export default html
