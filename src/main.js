@@ -44,7 +44,7 @@ const player = {
         player.string = html.substring(0, player.n)
 
         demo.innerText = player.string
-        if (document.getElementById('#demo1')) {
+        if (document.getElementById('demo1')) {
 
             demo1.innerHTML = player.string
         }

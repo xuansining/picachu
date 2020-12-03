@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>picachu</title>
     <style>
-        #demo{
+        #demo {
 
             height: 50vh;
             overflow: scroll;
@@ -16,32 +17,34 @@
         #demo::-webkit-scrollbar {
             display: none;
         }
-        .skin{
+
+        .skin {
             height: auto;
         }
-        .control{
-            display:flex;
+
+        .control {
+            display: flex;
             position: fixed;
-            top:0;
+            top: 0;
             right: 0;
             flex-direction: column;
         }
-
-
     </style>
-    <style id="demo1"></style>
-<!--    <link rel="stylesheet" href="style.css">-->
+    <!--    <link rel="stylesheet" href="style.css">-->
 
 </head>
-<body>
-<div class="control">
-    <button class="btn_pause">pause</button>
-    <button class="btn_play">play</button>
-    <button class="btn_slow">slow</button>
-    <button class="btn_normal">normal</button>
-    <button class="btn_fast">fast</button>
 
-</div>
+<body>
+
+    <style id="demo1"></style>
+    <div class="control">
+        <button class="btn_pause">pause</button>
+        <button class="btn_play">play</button>
+        <button class="btn_slow">slow</button>
+        <button class="btn_normal">normal</button>
+        <button class="btn_fast">fast</button>
+
+    </div>
 
     <div id="demo">文字</div>
 
@@ -50,30 +53,30 @@
 
 
     <div class="skin">
-       <div class="nose">
-           <div class="triangle">
-            <div class="round"></div>
-           </div>
-           
-       </div>
+        <div class="nose">
+            <div class="triangle">
+                <div class="round"></div>
+            </div>
 
-       <div class="eyes">
-           <div class="left"></div>
-           <div class="right"></div>
-       </div>
-       
+        </div>
 
-       <div class="mouth">
-           <div class="upperlip">
-               <div class="left"></div>
-               <div class="right"></div>
-           </div>
-           <div class="downlip">
-               <div class="round1">
-                   <div class="round2"></div>
-               </div>
-           </div>
-       </div>
+        <div class="eyes">
+            <div class="left"></div>
+            <div class="right"></div>
+        </div>
+
+
+        <div class="mouth">
+            <div class="upperlip">
+                <div class="left"></div>
+                <div class="right"></div>
+            </div>
+            <div class="downlip">
+                <div class="round1">
+                    <div class="round2"></div>
+                </div>
+            </div>
+        </div>
         <div class="face">
             <div class="left">
 
@@ -88,4 +91,5 @@
 
     <script src="main.js"></script>
 </body>
+
 </html>

@@ -167,10 +167,13 @@ var player = {
       return;
     }
 
-    player.string = _css.default.substring(1, player.n);
-    console.log(player.string);
+    player.string = _css.default.substring(0, player.n);
     demo.innerText = player.string;
-    demo1.innerHTML = player.string;
+
+    if (document.getElementById('demo1')) {
+      demo1.innerHTML = player.string;
+    }
+
     demo.scrollTop = demo.scrollHeight;
     player.n += 1;
   },
@@ -232,7 +235,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "51436" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "53905" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
